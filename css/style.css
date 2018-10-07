@@ -1,0 +1,43 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: #ff7f50;
+  font-family: 'K2D', sans-serif;
+
+}
+
+.underconstruction{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 450px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.5);
+}
+
+.underconstruction img{
+  position: absolute;
+  width: 30%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+}
+
+.underconstruction h3{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  margin: 0;
+  padding: 5px 10px;
+  border-radius: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  font-size: 16px;
+
+}
